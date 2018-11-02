@@ -1,0 +1,41 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(images/p4.jpeg);
+	background-size: cover;
+	font-family:Times new roman;
+}
+.title{
+	margin-top: 100px;
+	color: #fff;
+}
+.title h1{
+	font-size: 40px;
+	line-height: 10px;
+}
+form{
+	margin-top: 50px;
+}
+.form-control{
+	width: 550px;
+	background: transparent;
+	border : none;
+	border-bottom: 1px solid grey;
+	color: #fff;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+input{
+	height: 45px;
+}
+form .submit{
+	background-color: #696969;
+	border-color: transparent;
+	letter-spacing: 2px;
+	transition: 0.4s;
+}
+form.submit:hover{
+	background-color: #fff;
+	cursor: pointer;
+}
